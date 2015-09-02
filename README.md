@@ -1,2 +1,3 @@
-# buku_tamu_angularjs
-Aplikasi buku tamu dengan angularjs
+# Aplikasi Buku Tamu dengan AngularJS
+
+Ini merupakan aplikasi Buku Tamu dengan menggunakan AngularJS. Untuk koneksi database menggunakan API dengan PHP dan Mysql.
