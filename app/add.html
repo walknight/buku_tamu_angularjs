@@ -2,26 +2,26 @@
     <form class="col s12" action="#" method="post">
         <div class="row">
            <div class="input-field col s6">
-                <input id="name" type="text" class="validate">
+                <input id="name" type="text" ng-model="tamu.name" class="validate">
                 <label for="name">Name</label>
             </div>
         </div>
 
         <div class="row">
             <div class="input-field col s6">
-                <input id="email" type="email" data-error="that's not an email!" data-success="this is right"  class="validate">
+                <input id="email" type="email" ng-mode="tamu.email" data-error="that's not an email!" data-success="this is right"  class="validate">
                 <label for="email">Email</label>
             </div>
         </div>
         <div class="row">
             <div class="input-field col s6">
-                <input id="tlp" type="number" class="validate">
+                <input id="tlp" type="number" ng-model="tamu.tlp" class="validate">
                 <label for="email">No.Tlp</label>
             </div>
         </div>
         <div class="row">
             <div class="input-field col s6">
-                <input id="instansi" type="text" class="validate">
+                <input id="instansi" type="text" ng-model="tamu.instansi" class="validate">
                 <label for="email">Instansi</label>
             </div>
         </div>
