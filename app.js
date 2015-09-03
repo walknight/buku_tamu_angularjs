@@ -2,15 +2,19 @@ var app = angular.module('CrudApp',['ngRoute']);
 
 app.config(['$routeProvider', function($routeProvider){
     $routeProvider
-      .when('/', {
-        templateUrl : 'app/list.html',
-        controller : ListCtrl
+        .when('/', {
+            templateUrl : 'app/list.html',
+            controller : ListCtrl
         
-      })
-      .otherwise({
-        redirectTo : '/'
+        })
+        .when('/addtamu',{
+            templateUrl : 'app/add.html',
+            controller : AddCtrl
+        });
+        .otherwise({
+            redirectTo : '/'
         
-      });
+        });
       
       
 }]);
@@ -50,3 +54,7 @@ function ListCtrl($scope, $http)
   
 }
 
+function AddCtrl($scope,$http,$location)
+{
+
+}
